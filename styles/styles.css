@@ -13,6 +13,9 @@
 /* Shared styles */
 
 /* Banner styles */
+.header-title-btn{
+  text-align: center;
+}
 .header{
   background-image: url('../images/Hero-bg.png');
   background-repeat: no-repeat;
@@ -74,10 +77,11 @@
 .header-title{
   font-size: 65px;
   font-weight:bold;
-  text-align:center;
+  /* text-align:center; */
   margin-top:208px;
   margin-left:267.5px;
   margin-right:267.5px;
+  margin-bottom: 37px;
 }
 
  /* Action styles */
