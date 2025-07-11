@@ -10,17 +10,14 @@
   font-style: normal;
 }
 
-/* Shared styles */
-
 /* Banner styles */
-.header-title-btn{
+.header-title-and-button{
   text-align: center;
 }
 .header{
   background-image: url('../images/Hero-bg.png');
   background-repeat: no-repeat;
   background-size:cover;
-  /* height:698px; */
 }
 .header nav ul{
   list-style:none;
@@ -77,11 +74,10 @@
 .header-title{
   font-size: 65px;
   font-weight:bold;
-  /* text-align:center; */
   margin-top:208px;
   margin-left:267.5px;
   margin-right:267.5px;
-  margin-bottom: 37px;
+  margin-bottom: 40px;
 }
 
  /* Action styles */
@@ -89,18 +85,22 @@
     display: flex;
     gap:220px;
     justify-content:space-around;
-    align-items:center;
     margin:116px 160px 116px 141px;
+  }
+  .action-item{
+  padding-top:31px;
+  padding-top:31px;
   }
 .acton-title{
   font-size:42px;
   font-weight:bold;
   color:#292432;
+  margin-bottom:23px;
  }
  .action-subtitle{
   font-size:24px;
   color:rgba(37, 36, 50, 0.5);
-  margin-top:23px;
+  margin-bottom:23px;
  }
  .btn-action{
   font-size:16px;
@@ -110,7 +110,6 @@
   border:none;
   border-radius:10px;
   padding:12px 36px;
-  margin-top:23px;
   transition-duration: 0.9s;
  }
  .btn-action:hover{
@@ -135,7 +134,7 @@
   padding:50px 142px;
   border:none;
   border-radius:24px;
-  background-color:rgba(78, 71, 255, 0.1)
+  background-color:rgba(78, 71, 255, 0.1);
  }
  .productive-title{
   text-align: center;
